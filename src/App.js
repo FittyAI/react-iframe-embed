@@ -57,17 +57,6 @@ function App() {
           <div className="iframe-wrapper ">
             {/* --- Fitty Camera component */}
             <FittyCameraEmbed sessionId={sessionId} />
-            <p className="camera-title">
-              Example of embedded Fitty Camera component{" "}
-              <a
-                className="App-link"
-                href="https://demost.fittyai.com/web/fitty/quiz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Full application
-              </a>
-            </p>
           </div>
           <ReactJson src={socketsLog} theme="greenscreen" />
         </div>

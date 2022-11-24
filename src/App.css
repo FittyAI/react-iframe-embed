@@ -1,0 +1,71 @@
+.App {
+  /* text-align: center; */
+  height: 100%;
+}
+
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-container {
+  background-color: #282c34;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 16px;
+}
+
+.App-link {
+  color: #61dafb;
+  display: inline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .camera-embed {
+    width: 100%;
+    max-width: 90%;
+    max-height: 70%;
+    flex-grow: 1;
+  }
+}
+
+.camera-title {
+  max-width: 405px;
+  text-align: center;
+}
+
+.log-container {
+  display: flex;
+}
+
+.iframe-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 16px;
+  align-items: center;
+}
+
+.react-json-view {
+  width: 40%;
+}
